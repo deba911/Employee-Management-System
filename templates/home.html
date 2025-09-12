@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #2c3e50, #3498db);
+            color: #fff;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #2980b9;
+        }
+
+        .welcome-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .welcome-content p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 10px 25px;
+            border: none;
+            background: #2980b9;
+            color: #fff;
+            font-size: 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #1abc9c;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>EMS</h1>
+        <nav>
+            <ul>
+                <li><a href="/index/">Home</a></li>
+                <li><a href="/emp_temp/home/">Employee Management</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="welcome-content">
+        <h2>Welcome to Employee Management System</h2>
+        <p>Manage employees efficiently with our powerful and user-friendly platform.</p>
+    </div>
+
+</body>
+
+</html>
